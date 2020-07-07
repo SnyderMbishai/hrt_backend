@@ -5,5 +5,5 @@ from . import views
 app_name = 'vowel'
 
 urlpatterns = [
-    # path('/vowel-service', views.vowel_reverse, name='vowel'),    
+    path('vowel-service', views.reverse_vowel, name='vowel'),    
 ]
